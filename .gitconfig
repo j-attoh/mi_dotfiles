@@ -1,0 +1,21 @@
+[user]
+	name = Attoh Jonathan
+	email = attoh.attram@gmail.com
+[color]
+	ui = auto
+[merge]
+	conflictstyle = diff3
+	tool = vimdiff
+[core]
+	editor = vim
+	excludesfile = /home/theone/.gitignore_global
+[alias]
+	graph =  log --all --graph --decorate --oneline 
+
+	branches = branch --all 
+	whoami = config user.email 
+	contributors = shortlog --summary --numbered
+[credential]
+	helper = cache
+[diff]
+	tool = vimdiff
